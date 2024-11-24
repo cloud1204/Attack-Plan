@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<problem revision="11" short-name="attack-plan" url="https://polygon.codeforces.com/p5PrEp4/Clouder/attack-plan">
+    <names>
+        <name language="english" value="攻城計畫 (attackplan)"/>
+    </names>
+    <statements>
+        <statement charset="UTF-8" language="english" mathjax="true" path="statements/english/problem.tex" type="application/x-tex"/>
+        <statement charset="UTF-8" language="english" mathjax="true" path="statements/.html/english/problem.html" type="text/html"/>
+    </statements>
+    <judging cpu-name="Intel(R) Core(TM) i3-8100 CPU @ 3.60GHz" cpu-speed="3600" input-file="" output-file="" run-count="1">
+        <testset name="tests">
+            <time-limit>3000</time-limit>
+            <memory-limit>268435456</memory-limit>
+            <test-count>48</test-count>
+            <input-path-pattern>tests/%02d</input-path-pattern>
+            <answer-path-pattern>tests/%02d.a</answer-path-pattern>
+            <tests>
+                <test group="example" method="manual" points="0.0" sample="true"/>
+                <test group="example" method="manual" points="0.0" sample="true"/>
+                <test cmd="gen --type=tree 01" group="s1" method="generated" points="32.0"/>
+                <test cmd="gen --type=tree 02" group="s1" method="generated" points="0.0"/>
+                <test cmd="gen --type=tree 03" group="s1" method="generated" points="0.0"/>
+                <test cmd="gen --type=tree 04" group="s1" method="generated" points="0.0"/>
+                <test cmd="gen --type=tree 05" group="s1" method="generated" points="0.0"/>
+                <test cmd="gen --type=tree 06" group="s1" method="generated" points="0.0"/>
+                <test cmd="gen --type=tree --minn=100000" group="s1" method="generated" points="0.0"/>
+                <test cmd="gen --type=same 01" group="s2" method="generated" points="29.0"/>
+                <test cmd="gen --type=same 02" group="s2" method="generated" points="0.0"/>
+                <test cmd="gen --type=same 03" group="s2" method="generated" points="0.0"/>
+                <test cmd="gen --type=same --maxn=50000 --minm=100000 04" group="s2" method="generated" points="0.0"/>
+                <test cmd="gen --type=same --maxn=10000 --minm=100000 05" group="s2" method="generated" points="0.0"/>
+                <test cmd="gen --type=same --maxn=5000 --minm=100000 06" group="s2" method="generated" points="0.0"/>
+                <test cmd="gen --type=same --maxn=1000 --minm=100000 07" group="s2" method="generated" points="0.0"/>
+                <test cmd="gen --type=same --maxn=30000 --minm=100000 08" group="s2" method="generated" points="0.0"/>
+                <test cmd="gen --type=same --minn=50000 --maxm=100000 09" group="s2" method="generated" points="0.0"/>
+                <test cmd="gen --type=same --minn=70000 --maxm=100000 10" group="s2" method="generated" points="0.0"/>
+                <test cmd="gen --type=same --maxa=10000 --maxw=10000" group="s2" method="generated" points="0.0"/>
+                <test cmd="gen --type=same --maxa=10000 --maxw=100" group="s2" method="generated" points="0.0"/>
+                <test cmd="gen --type=same --maxa=10000 --maxw=10" group="s2" method="generated" points="0.0"/>
+                <test cmd="gen --type=same --minn=100000" group="s2" method="generated" points="0.0"/>
+                <test cmd="gen --type=graph --maxn=100 --maxm=100 --maxa=100 --maxw=100 01" group="s3" method="generated" points="15.0"/>
+                <test cmd="gen --type=graph --maxn=100 --maxm=100 --maxa=100 --maxw=100 02" group="s3" method="generated" points="0.0"/>
+                <test cmd="gen --type=graph --maxn=100 --maxm=100 --maxa=100 --maxw=100 03" group="s3" method="generated" points="0.0"/>
+                <test cmd="gen --type=graph --maxn=100 --maxm=100 --maxa=100 --maxw=100 04" group="s3" method="generated" points="0.0"/>
+                <test cmd="gen --type=tree --maxn=100 --maxm=100 --maxa=100 --maxw=100 05" group="s3" method="generated" points="0.0"/>
+                <test cmd="gen --type=tree --maxn=100 --maxm=100 --maxa=100 --maxw=100 06" group="s3" method="generated" points="0.0"/>
+                <test cmd="gen --type=graph --maxn=50 --maxm=100 --maxa=100 --maxw=20 07" group="s3" method="generated" points="0.0"/>
+                <test cmd="gen --type=graph --maxn=50 --maxm=100 --maxa=100 --maxw=50 08" group="s3" method="generated" points="0.0"/>
+                <test cmd="gen --type=graph --maxn=50 --maxm=100 --maxa=100 --maxw=10 09" group="s3" method="generated" points="0.0"/>
+                <test cmd="gen --type=graph --maxn=50 --maxm=100 --maxa=100 --maxw=10 10" group="s3" method="generated" points="0.0"/>
+                <test cmd="gen --type=graph --maxn=50 --minn=50 --minm=100 --maxm=100 --maxa=100 --maxw=10 11" group="s3" method="generated" points="0.0"/>
+                <test cmd="gen --type=graph --maxn=50 --minn=50 --minm=100 --maxm=100 --maxa=100 --maxw=10 12" group="s3" method="generated" points="0.0"/>
+                <test cmd="gen --type=graph 01" group="s4" method="generated" points="24.0"/>
+                <test cmd="gen --type=graph 02" group="s4" method="generated" points="0.0"/>
+                <test cmd="gen --type=graph 03" group="s4" method="generated" points="0.0"/>
+                <test cmd="gen --type=graph --maxn=50000 --minm=100000 04" group="s4" method="generated" points="0.0"/>
+                <test cmd="gen --type=graph --maxn=10000 --minm=100000 05" group="s4" method="generated" points="0.0"/>
+                <test cmd="gen --type=graph --maxn=5000 --minm=100000 06" group="s4" method="generated" points="0.0"/>
+                <test cmd="gen --type=graph --maxn=1000 --minm=100000 07" group="s4" method="generated" points="0.0"/>
+                <test cmd="gen --type=graph --maxn=30000 --minm=100000 08" group="s4" method="generated" points="0.0"/>
+                <test cmd="gen --type=graph --minn=50000 --maxm=100000 09" group="s4" method="generated" points="0.0"/>
+                <test cmd="gen --type=graph --minn=70000 --maxm=100000 10" group="s4" method="generated" points="0.0"/>
+                <test cmd="gen --type=graph --maxa=10000 --maxw=10000" group="s4" method="generated" points="0.0"/>
+                <test cmd="gen --type=graph --maxa=10000 --maxw=100" group="s4" method="generated" points="0.0"/>
+                <test cmd="gen --type=graph --maxa=10000 --maxw=10" group="s4" method="generated" points="0.0"/>
+            </tests>
+            <groups>
+                <group feedback-policy="icpc" name="example" points="0.0" points-policy="complete-group"/>
+                <group feedback-policy="icpc" name="s1" points="32.0" points-policy="complete-group"/>
+                <group feedback-policy="icpc" name="s2" points="29.0" points-policy="complete-group"/>
+                <group feedback-policy="icpc" name="s3" points="15.0" points-policy="complete-group">
+                    <dependencies>
+                        <dependency group="example"/>
+                    </dependencies>
+                </group>
+                <group feedback-policy="icpc" name="s4" points="24.0" points-policy="complete-group">
+                    <dependencies>
+                        <dependency group="example"/>
+                        <dependency group="s1"/>
+                        <dependency group="s2"/>
+                        <dependency group="s3"/>
+                    </dependencies>
+                </group>
+            </groups>
+        </testset>
+    </judging>
+    <files>
+        <resources>
+            <file path="files/olymp.sty"/>
+            <file path="files/problem.tex"/>
+            <file path="files/statements.ftl"/>
+            <file path="files/testlib.h" type="h.g++"/>
+        </resources>
+        <executables>
+            <executable>
+                <source path="files/gen.cpp" type="cpp.g++17"/>
+                <binary path="files/gen.exe" type="exe.win32"/>
+            </executable>
+            <executable>
+                <source path="files/val.cpp" type="cpp.g++17"/>
+                <binary path="files/val.exe" type="exe.win32"/>
+            </executable>
+        </executables>
+    </files>
+    <assets>
+        <checker name="std::lcmp.cpp" type="testlib">
+            <source path="files/check.cpp" type="cpp.g++17"/>
+            <binary path="check.exe" type="exe.win32"/>
+            <copy path="check.cpp"/>
+            <testset>
+                <test-count>0</test-count>
+                <input-path-pattern>files/tests/checker-tests/%02d</input-path-pattern>
+                <output-path-pattern>files/tests/checker-tests/%02d.o</output-path-pattern>
+                <answer-path-pattern>files/tests/checker-tests/%02d.a</answer-path-pattern>
+                <tests/>
+            </testset>
+        </checker>
+        <validators>
+            <validator>
+                <source path="files/val.cpp" type="cpp.g++17"/>
+                <binary path="files/val.exe" type="exe.win32"/>
+                <testset>
+                    <test-count>0</test-count>
+                    <input-path-pattern>files/tests/validator-tests/%02d</input-path-pattern>
+                    <tests/>
+                </testset>
+            </validator>
+        </validators>
+        <solutions>
+            <solution tag="main">
+                <source path="solutions/main.cpp" type="cpp.g++17"/>
+                <binary path="solutions/main.exe" type="exe.win32"/>
+            </solution>
+            <solution tag="accepted">
+                <source path="solutions/solByYju.cpp" type="cpp.g++17"/>
+                <binary path="solutions/solByYju.exe" type="exe.win32"/>
+            </solution>
+        </solutions>
+    </assets>
+    <properties>
+        <property name="tests-wellformed" value="true"/>
+    </properties>
+    <stresses>
+        <stress-count>0</stress-count>
+        <stress-path-pattern>stresses/%03d</stress-path-pattern>
+        <list/>
+    </stresses>
+    <tags>
+        <tag value="2023-ionc"/>
+    </tags>
+</problem>
