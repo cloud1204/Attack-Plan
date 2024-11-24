@@ -1,5 +1,5 @@
 # Attack-Plan
-IONC 2023 Practice Problem
+IONC 2023 Practice Problem (Original)
 ## Problem Statement
 
 敵人共有 $n$ 個據點，由 $m$ 條雙向道路互相連接。第 $i$ 條道路連接的是第 $u_i$ 個和第 $v_i$ 個據點，且該道路的長度為 $w_i$，代表要通過該道路需要花費 $w_i$ 秒。保證任意兩個據點之間都是直接或間接的連接的。
